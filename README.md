@@ -1,6 +1,6 @@
 # JupyterLite Demo
 
-[![Build and Deploy](https://github.com/bdunnette/jupyterlite-demo-uv/actions/workflows/deploy.yml/badge.svg)](https://github.com/bdunnette/jupyterlite-demo-uv/actions/workflows/deploy.yml) [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/bdunnette/jupyterlite-demo-uv/main.svg)](https://results.pre-commit.ci/latest/github/bdunnette/jupyterlite-demo-uv/main)
+[![Build and Deploy](https://github.com/bdunnette/biorepository-data-wrangling/actions/workflows/deploy.yml/badge.svg)](https://github.com/bdunnette/biorepository-data-wrangling/actions/workflows/deploy.yml) [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/bdunnette/biorepository-data-wrangling/main.svg)](https://results.pre-commit.ci/latest/github/bdunnette/biorepository-data-wrangling/main)
 [![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://jupyterlite.github.io/demo)
 
 JupyterLite deployed as a static site to GitHub Pages, for demo purposes.
