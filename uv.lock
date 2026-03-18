@@ -168,18 +168,6 @@ wheels = [
 ]
 
 [[package]]
-name = "branca"
-version = "0.8.2"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "jinja2" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/32/14/9d409124bda3f4ab7af3802aba07181d1fd56aa96cc4b999faea6a27a0d2/branca-0.8.2.tar.gz", hash = "sha256:e5040f4c286e973658c27de9225c1a5a7356dd0702a7c8d84c0f0dfbde388fe7", size = 27890, upload-time = "2025-10-06T10:28:20.305Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/7e/50/fc9680058e63161f2f63165b84c957a0df1415431104c408e8104a3a18ef/branca-0.8.2-py3-none-any.whl", hash = "sha256:2ebaef3983e3312733c1ae2b793b0a8ba3e1c4edeb7598e10328505280cf2f7c", size = 26193, upload-time = "2025-10-06T10:28:19.255Z" },
-]
-
-[[package]]
 name = "certifi"
 version = "2025.11.12"
 source = { registry = "https://pypi.org/simple" }
@@ -633,22 +621,6 @@ wheels = [
 ]
 
 [[package]]
-name = "ipyleaflet"
-version = "0.20.0"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "branca" },
-    { name = "ipywidgets" },
-    { name = "jupyter-leaflet" },
-    { name = "traittypes" },
-    { name = "xyzservices" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/d8/f2/00facc58a1e9581d9365df5761bf7e12f9fa7132132111f6ee484fd58e42/ipyleaflet-0.20.0.tar.gz", hash = "sha256:098f317dd63c4bcac5176d5b78d40d5758c623f7cd013f0d0c9d7a70cefcdb34", size = 28932, upload-time = "2025-06-13T08:33:43.441Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/49/69/e9858f2c0b99bf9f036348d1c84b8026f438bb6875effe6a9bcd9883dada/ipyleaflet-0.20.0-py3-none-any.whl", hash = "sha256:b4c20ddc0b17d68e226cd3367ca2215a4db7e2b14374468c0eeaa54b53e4d173", size = 31578, upload-time = "2025-06-13T08:33:37.353Z" },
-]
-
-[[package]]
 name = "ipympl"
 version = "0.9.8"
 source = { registry = "https://pypi.org/simple" }
@@ -857,15 +829,6 @@ wheels = [
 ]
 
 [[package]]
-name = "jupyter-leaflet"
-version = "0.20.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/4e/db/870bd0f8995c9359ea1501ba82ed7daf40bbbac95efeca80a35f3705929b/jupyter_leaflet-0.20.0.tar.gz", hash = "sha256:ad826dd7976a2b6d8b91d762c25a69a44f123b7b3bd1acaba236bd9af8e68cb4", size = 1306561, upload-time = "2025-06-13T08:33:46.282Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/16/95/ffe543060eb3b1570d78c3f2c1948c640a6758ff5c6479c27e474819115b/jupyter_leaflet-0.20.0-py3-none-any.whl", hash = "sha256:2e27ce83647316424f04845e3a6af35e1ee44c177c318a145646b11f4afe0764", size = 1107090, upload-time = "2025-06-13T08:33:40.416Z" },
-]
-
-[[package]]
 name = "jupyter-lsp"
 version = "2.3.0"
 source = { registry = "https://pypi.org/simple" }
@@ -941,24 +904,6 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/6a/5d/75c42a48ff5fc826a7dff3fe4004cda47c54f9d981c351efacfbc9139d3c/jupyterlab-4.4.10.tar.gz", hash = "sha256:521c017508af4e1d6d9d8a9d90f47a11c61197ad63b2178342489de42540a615", size = 22969303, upload-time = "2025-10-22T14:50:58.768Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/f7/46/1eaa5db8d54a594bdade67afbcae42e9a2da676628be3eb39f36dcff6390/jupyterlab-4.4.10-py3-none-any.whl", hash = "sha256:65939ab4c8dcd0c42185c2d0d1a9d60b254dc8c46fc4fdb286b63c51e9358e07", size = 12293385, upload-time = "2025-10-22T14:50:54.075Z" },
-]
-
-[[package]]
-name = "jupyterlab-fasta"
-version = "3.3.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/7f/da/7b038fa7e5b6ed2094319f48c7face8b1afdccbeb26b0b970c75f8677cfa/jupyterlab_fasta-3.3.0.tar.gz", hash = "sha256:7597c7b735966481db83c3156ac3d22105a0fade3b3686eb7433fb64c013cb5a", size = 220249, upload-time = "2023-05-23T12:26:00.525Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/cc/3a/510ad9ee10be5b22e0ecac42ab760c65c94a765aed3c61a05dc5a3f63ef4/jupyterlab_fasta-3.3.0-py3-none-any.whl", hash = "sha256:801d9e3d02e63d9efa964e0f5a1a2dfd22996b89aac72462d54d45b1a4256de1", size = 157355, upload-time = "2023-05-23T12:25:27.041Z" },
-]
-
-[[package]]
-name = "jupyterlab-geojson"
-version = "3.4.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/47/75/c4ba4e915c077ec1de6dd3037f06bb4f1ed1c00e9d453fb3307eee9eac50/jupyterlab_geojson-3.4.0.tar.gz", hash = "sha256:cc7f6015f75f7816240402880134cd7174af64fbef010b1556071729f98a291f", size = 570324, upload-time = "2023-05-23T12:26:07.703Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/7c/6d/113e7d1fd8deedda14fc1a3ad3ad8e98a73dc72b7e6d2cafe032c1c16521/jupyterlab_geojson-3.4.0-py3-none-any.whl", hash = "sha256:56d9bed9253d0a3b4c6e5ae8ac0685039bfb43775cd356e4979bdf147e89dfc5", size = 83184, upload-time = "2023-05-23T12:25:30.616Z" },
 ]
 
 [[package]]
@@ -1038,15 +983,16 @@ wheels = [
 
 [[package]]
 name = "jupyterlite-core"
-version = "0.6.4"
+version = "0.7.4"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "doit" },
     { name = "jupyter-core" },
+    { name = "pycparser", marker = "platform_python_implementation == 'PyPy'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/1a/32/e1b4a19716b3a0438be8e07607058e1f9b12e5b6a9cb679eeedd85ea1ca3/jupyterlite_core-0.6.4.tar.gz", hash = "sha256:a753c3d83a1f4112d8f04f6e103945c3f6d746ae27d2293af74fb862851e91e3", size = 15987048, upload-time = "2025-08-08T07:16:41.556Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/e3/a9/db34fc372bf37daba4ecd8ae10f97d102483b27130e60a9f7c0075febfc9/jupyterlite_core-0.7.4.tar.gz", hash = "sha256:c8a74b4ca9792f611b657465f63a79543b381063ebebdc2b5b3b695704e14278", size = 16311836, upload-time = "2026-03-12T09:29:47.465Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/8d/25/003881b07217e270fc71083185e4e48bf48c41b4f398f9d24e7d727f6e64/jupyterlite_core-0.6.4-py3-none-any.whl", hash = "sha256:0e20c1e32a26a6ca7d80df2094d69acfcb58b54c109c66865bbe8513c3502c01", size = 15999714, upload-time = "2025-08-08T07:16:38.5Z" },
+    { url = "https://files.pythonhosted.org/packages/03/fc/0518d2de703fbdb328eed8e791fddd8628880719b4f0bf1e82ce3f829020/jupyterlite_core-0.7.4-py3-none-any.whl", hash = "sha256:354785c7575a87a55c06f385d6c22e25ebbe7801d9d2dcdc4b41158d5bd3aa8c", size = 16323931, upload-time = "2026-03-12T09:29:44.634Z" },
 ]
 
 [[package]]
@@ -1057,19 +1003,14 @@ dependencies = [
     { name = "bqplot" },
     { name = "ipycanvas" },
     { name = "ipyevents" },
-    { name = "ipyleaflet" },
     { name = "ipympl" },
     { name = "ipywidgets" },
     { name = "jupyterlab" },
-    { name = "jupyterlab-fasta" },
-    { name = "jupyterlab-geojson" },
     { name = "jupyterlab-language-pack-fr-fr" },
     { name = "jupyterlab-language-pack-zh-cn" },
     { name = "jupyterlab-miami-nights" },
     { name = "jupyterlab-night" },
     { name = "jupyterlite-core" },
-    { name = "jupyterlite-javascript-kernel" },
-    { name = "jupyterlite-p5-kernel" },
     { name = "jupyterlite-pyodide-kernel" },
     { name = "notebook" },
     { name = "plotly" },
@@ -1080,53 +1021,30 @@ requires-dist = [
     { name = "bqplot" },
     { name = "ipycanvas", specifier = ">=0.9.1" },
     { name = "ipyevents", specifier = ">=2.0.1" },
-    { name = "ipyleaflet" },
     { name = "ipympl", specifier = ">=0.8.2" },
     { name = "ipywidgets", specifier = ">=8.1.3,<9" },
     { name = "jupyterlab", specifier = "~=4.4.5" },
-    { name = "jupyterlab-fasta", specifier = ">=3.3.0,<4" },
-    { name = "jupyterlab-geojson", specifier = ">=3.4.0,<4" },
     { name = "jupyterlab-language-pack-fr-fr" },
     { name = "jupyterlab-language-pack-zh-cn" },
     { name = "jupyterlab-miami-nights" },
     { name = "jupyterlab-night" },
-    { name = "jupyterlite-core", specifier = "==0.6.4" },
-    { name = "jupyterlite-javascript-kernel", specifier = "==0.3.0" },
-    { name = "jupyterlite-p5-kernel", specifier = "==0.3.0" },
-    { name = "jupyterlite-pyodide-kernel", specifier = "==0.6.1" },
+    { name = "jupyterlite-core", specifier = "==0.7.4" },
+    { name = "jupyterlite-pyodide-kernel", specifier = "==0.7.1" },
     { name = "notebook", specifier = "~=7.4.5" },
     { name = "plotly", specifier = ">=6,<7" },
 ]
 
 [[package]]
-name = "jupyterlite-javascript-kernel"
-version = "0.3.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/93/46/ea0a0d72f7eeb6af42deec5d44dfb8ecde9f506a047abad5fe2c2ba3224f/jupyterlite_javascript_kernel-0.3.0.tar.gz", hash = "sha256:39870efb4cdfe669b99552b4ad21a82f575691e4fdaf77b33bef04ec230889ff", size = 177936, upload-time = "2024-03-26T13:25:50.994Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/68/23/c09a3dd650daa61fac75fb1e05f224df3b797972d761d3317c1bd03b10ba/jupyterlite_javascript_kernel-0.3.0-py3-none-any.whl", hash = "sha256:7753c172d3c8bd50d7e7c05d1b667c3fa5566f90d38bf1bdd160f9752e1746b7", size = 33633, upload-time = "2024-03-26T13:25:48.72Z" },
-]
-
-[[package]]
-name = "jupyterlite-p5-kernel"
-version = "0.3.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/6e/c5/e2d6f97f73cc368a802492a1e037950e56be11050e60ad62252669ec7343/jupyterlite_p5_kernel-0.3.0.tar.gz", hash = "sha256:293974231974eef8d08eed6083a9ab6f3f2a9f18bd35cf98d9262d2ab8570fc6", size = 224894, upload-time = "2025-12-02T16:12:34.355Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/fd/99/643dd0b8d55d978685777567ff331af944e2a2c2d648a4f399b52f9fde99/jupyterlite_p5_kernel-0.3.0-py3-none-any.whl", hash = "sha256:8b3083bfcfecb6f0786ca5607603e094623a487c37f8ffa5825a1c1eda5686b0", size = 22018, upload-time = "2025-12-02T16:12:32.702Z" },
-]
-
-[[package]]
 name = "jupyterlite-pyodide-kernel"
-version = "0.6.1"
+version = "0.7.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "jupyterlite-core" },
     { name = "pkginfo" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/e8/20/0b54b71d1343df78bd8733ce82178614af7a4fd41fd2295f22e7c7c1498a/jupyterlite_pyodide_kernel-0.6.1.tar.gz", hash = "sha256:161714b3db78050064f8e9b6e542b368ba60a098f6a92a4a50abde403b5fb8c3", size = 886693, upload-time = "2025-06-05T10:12:10.669Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/86/fe/5f9e535f1e15852cb5e5745aeb9d4e9b4eb67282c3e7402d2ca823c76c1f/jupyterlite_pyodide_kernel-0.7.1.tar.gz", hash = "sha256:5e52c57190057d816e8551db1b2541f9c0398f71ea54ca47004886db6931cd6c", size = 545914, upload-time = "2026-03-03T07:17:05.245Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/92/a4/bf3270357175d410d98edd00e42c1826cb26e33742c1ee5421d00d4cf97d/jupyterlite_pyodide_kernel-0.6.1-py3-none-any.whl", hash = "sha256:d16f2e44dedd60d7a5578cd901a4de1ac34d30c80671abba7ec1ac70a65e2972", size = 904486, upload-time = "2025-06-05T10:12:08.385Z" },
+    { url = "https://files.pythonhosted.org/packages/94/03/65978831184bf53ebe3d3d07b83a540c9fa253bbf244d2ae92a6f0c758dc/jupyterlite_pyodide_kernel-0.7.1-py3-none-any.whl", hash = "sha256:3176bea5b471ca412514e87746c4804945ada8b4329754a4a0e027fdc92edfa3", size = 560227, upload-time = "2026-03-03T07:17:03.108Z" },
 ]
 
 [[package]]
@@ -2267,15 +2185,6 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/bd/f4/c67440c7fb409a71b7404b7aefcd7569a9c0d6bd071299bf4198ae7a5d95/widgetsnbextension-4.0.15.tar.gz", hash = "sha256:de8610639996f1567952d763a5a41af8af37f2575a41f9852a38f947eb82a3b9", size = 1097402, upload-time = "2025-11-01T21:15:55.178Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/3f/0e/fa3b193432cfc60c93b42f3be03365f5f909d2b3ea410295cf36df739e31/widgetsnbextension-4.0.15-py3-none-any.whl", hash = "sha256:8156704e4346a571d9ce73b84bee86a29906c9abfd7223b7228a28899ccf3366", size = 2196503, upload-time = "2025-11-01T21:15:53.565Z" },
-]
-
-[[package]]
-name = "xyzservices"
-version = "2025.10.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/58/2b/58b3db8814e39277dd6c34aa206f7d0231ff0406284e18e03d4920a4bc78/xyzservices-2025.10.0.tar.gz", hash = "sha256:c6b7648276c98e8222fbec84d9c763128cf3653705017a4d6c4c3652480ee144", size = 1135110, upload-time = "2025-10-30T14:46:36.531Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/5b/8f/447cc9cb57456d786204af0f450ffb920039104c5eff6626337c9f403bd1/xyzservices-2025.10.0-py3-none-any.whl", hash = "sha256:cfd6423367c7bc717ed5824d4dd7de2c91486886c1c193db9d8f0fa7fd43bc1b", size = 92737, upload-time = "2025-10-30T14:46:34.923Z" },
 ]
 
 [[package]]
