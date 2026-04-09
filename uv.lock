@@ -510,14 +510,14 @@ wheels = [
 
 [[package]]
 name = "faker"
-version = "40.11.0"
+version = "40.13.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "tzdata", marker = "sys_platform == 'win32'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/94/dc/b68e5378e5a7db0ab776efcdd53b6fe374b29d703e156fd5bb4c5437069e/faker-40.11.0.tar.gz", hash = "sha256:7c419299103b13126bd02ec14bd2b47b946edb5a5eedf305e66a193b25f9a734", size = 1957570, upload-time = "2026-03-13T14:36:11.844Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/89/95/4822ffe94723553789aef783104f4f18fc20d7c4c68e1bbd633e11d09758/faker-40.13.0.tar.gz", hash = "sha256:a0751c84c3abac17327d7bb4c98e8afe70ebf7821e01dd7d0b15cd8856415525", size = 1962043, upload-time = "2026-04-06T16:44:55.68Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/b1/fa/a86c6ba66f0308c95b9288b1e3eaccd934b545646f63494a86f1ec2f8c8e/faker-40.11.0-py3-none-any.whl", hash = "sha256:0e9816c950528d2a37d74863f3ef389ea9a3a936cbcde0b11b8499942e25bf90", size = 1989457, upload-time = "2026-03-13T14:36:09.792Z" },
+    { url = "https://files.pythonhosted.org/packages/da/8a/708103325edff16a0b0e004de0d37db8ba216a32713948c64d71f6d4a4c2/faker-40.13.0-py3-none-any.whl", hash = "sha256:c1298fd0d819b3688fb5fd358c4ba8f56c7c8c740b411fd3dbd8e30bf2c05019", size = 1994597, upload-time = "2026-04-06T16:44:53.698Z" },
 ]
 
 [[package]]
@@ -975,20 +975,20 @@ wheels = [
 
 [[package]]
 name = "jupyterlab-language-pack-fr-fr"
-version = "4.5.post1"
+version = "4.5.post2"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/dd/7e/ea6b37df67d20ddc8e04931e374273654491b43e0ea20daadf7c727c53c4/jupyterlab_language_pack_fr_fr-4.5.post1.tar.gz", hash = "sha256:63f3198a1408d74d07d948bcd40ede295c42dc4158cead1607b2c647b607a55f", size = 152219, upload-time = "2026-01-09T19:05:10.127Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/b0/16/9d5113dc9b7f9d568f3314ca1400c55a329ebfcf944be96772d40c2a7bb8/jupyterlab_language_pack_fr_fr-4.5.post2.tar.gz", hash = "sha256:ca0502ffee86e78dd519bf23424101aa572832171079505febcc63b827d3c7ed", size = 152435, upload-time = "2026-03-11T08:26:06.354Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/a2/e4/6060580cf6f8ea709f6637e553d583969b1350c70c6b93dea774d0a8f6b8/jupyterlab_language_pack_fr_fr-4.5.post1-py2.py3-none-any.whl", hash = "sha256:c1a851ec71da883d327895332502ec967e46c2743b535e2dc0fdb5fec384f20a", size = 220304, upload-time = "2026-01-09T19:04:18.467Z" },
+    { url = "https://files.pythonhosted.org/packages/aa/88/68557f4efb4adcc1d134b1f12bfd10d77a82104629737cbf9fd5120ae37b/jupyterlab_language_pack_fr_fr-4.5.post2-py2.py3-none-any.whl", hash = "sha256:89c9f907ef7402d1de7f70a01902fe0ab859e52a7c0e8449835814c9816e7b63", size = 221437, upload-time = "2026-03-11T08:25:09.706Z" },
 ]
 
 [[package]]
 name = "jupyterlab-language-pack-zh-cn"
-version = "4.5.post1"
+version = "4.5.post2"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/8f/40/ede7fac90c71947cdb4c636ee2832e79afb593ad357699be0982c2211fd8/jupyterlab_language_pack_zh_cn-4.5.post1.tar.gz", hash = "sha256:7f3d3ad300b48f9faf306d4ffa883e3a4b39ddcb52c5a1dd9f7be840f9d54dd1", size = 154670, upload-time = "2026-01-09T19:05:33.647Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/b2/99/293446ff32d6c3e944a471d73e99f5196552076dddc9a89b2e2bd6b79e26/jupyterlab_language_pack_zh_cn-4.5.post2.tar.gz", hash = "sha256:42e4133e70ebe9935955d06c10886afebe0c06b4870b146b228298c032f15b11", size = 154874, upload-time = "2026-03-11T08:26:32.024Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/7d/76/e661aec952e93eac19123064edf0e3ed13e7c97c993193202a9fed704d96/jupyterlab_language_pack_zh_cn-4.5.post1-py2.py3-none-any.whl", hash = "sha256:b91dec6d5a1aeee2679a75269b73db9bdbc8313489810f8671067e35f789e34e", size = 222675, upload-time = "2026-01-09T19:04:51.452Z" },
+    { url = "https://files.pythonhosted.org/packages/f0/10/2b6581e4e197c5e4165e663f74e1a1f1f255029e7bfc1c4a728632447235/jupyterlab_language_pack_zh_cn-4.5.post2-py2.py3-none-any.whl", hash = "sha256:85b178914e9378e46fdf91d8c83f18f7f39f00c79c520d45c799a11b077272c0", size = 223645, upload-time = "2026-03-11T08:25:46.761Z" },
 ]
 
 [[package]]
