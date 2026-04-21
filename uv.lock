@@ -147,8 +147,6 @@ dependencies = [
     { name = "ipympl" },
     { name = "ipywidgets" },
     { name = "jupyterlab" },
-    { name = "jupyterlab-language-pack-fr-fr" },
-    { name = "jupyterlab-language-pack-zh-cn" },
     { name = "jupyterlab-miami-nights" },
     { name = "jupyterlab-night" },
     { name = "jupyterlite-core" },
@@ -167,8 +165,6 @@ requires-dist = [
     { name = "ipympl", specifier = ">=0.8.2" },
     { name = "ipywidgets", specifier = ">=8.1.3,<9" },
     { name = "jupyterlab", specifier = "~=4.4.5" },
-    { name = "jupyterlab-language-pack-fr-fr" },
-    { name = "jupyterlab-language-pack-zh-cn" },
     { name = "jupyterlab-miami-nights" },
     { name = "jupyterlab-night" },
     { name = "jupyterlite-core", specifier = "==0.7.4" },
@@ -974,24 +970,6 @@ wheels = [
 ]
 
 [[package]]
-name = "jupyterlab-language-pack-fr-fr"
-version = "4.5.post2"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/b0/16/9d5113dc9b7f9d568f3314ca1400c55a329ebfcf944be96772d40c2a7bb8/jupyterlab_language_pack_fr_fr-4.5.post2.tar.gz", hash = "sha256:ca0502ffee86e78dd519bf23424101aa572832171079505febcc63b827d3c7ed", size = 152435, upload-time = "2026-03-11T08:26:06.354Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/aa/88/68557f4efb4adcc1d134b1f12bfd10d77a82104629737cbf9fd5120ae37b/jupyterlab_language_pack_fr_fr-4.5.post2-py2.py3-none-any.whl", hash = "sha256:89c9f907ef7402d1de7f70a01902fe0ab859e52a7c0e8449835814c9816e7b63", size = 221437, upload-time = "2026-03-11T08:25:09.706Z" },
-]
-
-[[package]]
-name = "jupyterlab-language-pack-zh-cn"
-version = "4.5.post2"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/b2/99/293446ff32d6c3e944a471d73e99f5196552076dddc9a89b2e2bd6b79e26/jupyterlab_language_pack_zh_cn-4.5.post2.tar.gz", hash = "sha256:42e4133e70ebe9935955d06c10886afebe0c06b4870b146b228298c032f15b11", size = 154874, upload-time = "2026-03-11T08:26:32.024Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/f0/10/2b6581e4e197c5e4165e663f74e1a1f1f255029e7bfc1c4a728632447235/jupyterlab_language_pack_zh_cn-4.5.post2-py2.py3-none-any.whl", hash = "sha256:85b178914e9378e46fdf91d8c83f18f7f39f00c79c520d45c799a11b077272c0", size = 223645, upload-time = "2026-03-11T08:25:46.761Z" },
-]
-
-[[package]]
 name = "jupyterlab-miami-nights"
 version = "0.4.3"
 source = { registry = "https://pypi.org/simple" }
@@ -1320,7 +1298,7 @@ wheels = [
 
 [[package]]
 name = "nbconvert"
-version = "7.17.0"
+version = "7.17.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "beautifulsoup4" },
@@ -1338,9 +1316,9 @@ dependencies = [
     { name = "pygments" },
     { name = "traitlets" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/38/47/81f886b699450d0569f7bc551df2b1673d18df7ff25cc0c21ca36ed8a5ff/nbconvert-7.17.0.tar.gz", hash = "sha256:1b2696f1b5be12309f6c7d707c24af604b87dfaf6d950794c7b07acab96dda78", size = 862855, upload-time = "2026-01-29T16:37:48.478Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/01/b1/708e53fe2e429c103c6e6e159106bcf0357ac41aa4c28772bd8402339051/nbconvert-7.17.1.tar.gz", hash = "sha256:34d0d0a7e73ce3cbab6c5aae8f4f468797280b01fd8bd2ca746da8569eddd7d2", size = 865311, upload-time = "2026-04-08T00:44:14.914Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/0d/4b/8d5f796a792f8a25f6925a96032f098789f448571eb92011df1ae59e8ea8/nbconvert-7.17.0-py3-none-any.whl", hash = "sha256:4f99a63b337b9a23504347afdab24a11faa7d86b405e5c8f9881cd313336d518", size = 261510, upload-time = "2026-01-29T16:37:46.322Z" },
+    { url = "https://files.pythonhosted.org/packages/67/f8/bb0a9d5f46819c821dc1f004aa2cc29b1d91453297dbf5ff20470f00f193/nbconvert-7.17.1-py3-none-any.whl", hash = "sha256:aa85c087b435e7bf1ffd03319f658e285f2b89eccab33bc1ba7025495ab3e7c8", size = 261927, upload-time = "2026-04-08T00:44:12.845Z" },
 ]
 
 [[package]]
