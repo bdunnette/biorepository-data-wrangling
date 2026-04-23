@@ -13,9 +13,9 @@ dependencies = [
     "ipyevents>=2.0.1",
     "ipympl>=0.8.2",
     "ipycanvas>=0.9.1",
-    "plotly>=6,<7",
+    "plotly>=6.7.0,<7",
     "bqplot",
-    "faker>=40.11.0",
+    "faker>=40.15.0",
     "factory-boy>=3.3.3",
     "duckdb>=1.5.2",
 ]
