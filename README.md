@@ -33,4 +33,24 @@ This template provides the Pyodide kernel (`jupyterlite-pyodide-kernel`), along 
 optional utilities and extensions to make the JupyterLite experience more enjoyable. See the
 [`pyproject.toml` file](pyproject.toml) for a list of all the dependencies provided.
 
+## Local Development with uv
+
+This project uses `uv` for Python package management.
+
+```bash
+uv sync
+```
+
+To add or update dependencies:
+
+```bash
+uv add <package>
+```
+
+To run Jupyter with the synced environment:
+
+```bash
+uv run jupyter lab
+```
+
 For a template based on the Xeus kernel, see the [`jupyterlite/xeus-python-demo` repository](https://github.com/jupyterlite/xeus-python-demo)
