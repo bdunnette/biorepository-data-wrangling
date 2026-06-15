@@ -3,7 +3,7 @@ name = "biorepository-data-wrangling"
 version = "0.0.1"
 requires-python = ">= 3.12"
 dependencies = [
-    "jupyterlite-core==0.7.5",
+    "jupyterlite-core==0.7.6",
     "jupyterlab~=4.4.5",
     "notebook~=7.4.5",
     "jupyterlite-pyodide-kernel==0.7.2",
@@ -13,11 +13,11 @@ dependencies = [
     "ipyevents>=2.0.1",
     "ipympl>=0.8.2",
     "ipycanvas>=0.9.1",
-    "plotly>=6.7.0,<7",
+    "plotly>=6.8.0,<7",
     "bqplot",
-    "faker>=40.15.0",
+    "faker>=40.21.0",
     "factory-boy>=3.3.3",
-    "duckdb>=1.5.2",
+    "duckdb>=1.5.3",
 ]
 
 [tool.uv]
